@@ -1,4 +1,4 @@
-import {BaseEntity, Column, Entity, OneToMany, PrimaryGeneratedColumn, Unique} from "typeorm/index";
+import {BaseEntity, Column, Entity, OneToMany, PrimaryGeneratedColumn, Unique} from "typeorm";
 import * as bcrypt from 'bcrypt'
 import {RatingEntity} from "../rating/rating.entity";
 

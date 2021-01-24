@@ -7,7 +7,6 @@ import { AlertController } from './alert/alert.controller';
 import { MovieModule } from './movie/movie.module';
 import { GenreModule } from './genre/genre.module';
 import { RatingModule } from './rating/rating.module';
-import { LinkModule } from './link/link.module';
 
 @Module({
   imports: [
@@ -16,7 +15,6 @@ import { LinkModule } from './link/link.module';
       MovieModule,
       GenreModule,
       RatingModule,
-      LinkModule
   ],
   providers: [AlertGateway],
   controllers: [AlertController],
